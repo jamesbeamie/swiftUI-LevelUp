@@ -13,11 +13,16 @@ struct ContentView: View {
         VStack(alignment: .leading){
             Text("X series")
                 .font(.title)
-                .foregroundColor(Color.blue)
                 
-            Text("The ultimate driving machine")
-                .font(.subheadline)
+            HStack{
+                Text("The ultimate driving machine")
+                    .font(.subheadline)
+                   Spacer() .foregroundColor(Color.blue)
+                Text("M sport")
+                    .font(.subheadline)
+            }
         }
+        .padding()
     }
 }
 
