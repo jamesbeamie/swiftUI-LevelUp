@@ -13,7 +13,8 @@ struct ContentView: View {
         VStack(alignment: .leading){
             Text("X series")
                 .font(.title)
-                .foregroundColor(.blue)
+                .foregroundColor(Color.blue)
+                
             Text("The ultimate driving machine")
                 .font(.subheadline)
         }
