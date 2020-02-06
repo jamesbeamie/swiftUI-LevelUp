@@ -17,6 +17,7 @@
 		8473664923ECA8310074052A /* BeamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473664823ECA8310074052A /* BeamerTests.swift */; };
 		8473665423ECA8310074052A /* BeamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473665323ECA8310074052A /* BeamerUITests.swift */; };
 		8473666223ECBC080074052A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473666123ECBC080074052A /* CircleImage.swift */; };
+		8473666423ECC0FB0074052A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473666323ECC0FB0074052A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8473665323ECA8310074052A /* BeamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamerUITests.swift; sourceTree = "<group>"; };
 		8473665523ECA8310074052A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8473666123ECBC080074052A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8473666323ECC0FB0074052A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		8473662223ECA8300074052A = {
 			isa = PBXGroup;
 			children = (
+				8473666323ECC0FB0074052A /* MapView.swift */,
 				8473662D23ECA8300074052A /* Beamer */,
 				8473664723ECA8310074052A /* BeamerTests */,
 				8473665223ECA8310074052A /* BeamerUITests */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8473662F23ECA8300074052A /* AppDelegate.swift in Sources */,
+				8473666423ECC0FB0074052A /* MapView.swift in Sources */,
 				8473663423ECA8300074052A /* Beamer.xcdatamodeld in Sources */,
 				8473663623ECA8300074052A /* ContentView.swift in Sources */,
 				8473663123ECA8300074052A /* SceneDelegate.swift in Sources */,
