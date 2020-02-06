@@ -16,6 +16,7 @@
 		8473663E23ECA8310074052A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8473663C23ECA8310074052A /* LaunchScreen.storyboard */; };
 		8473664923ECA8310074052A /* BeamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473664823ECA8310074052A /* BeamerTests.swift */; };
 		8473665423ECA8310074052A /* BeamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473665323ECA8310074052A /* BeamerUITests.swift */; };
+		8473666223ECBC080074052A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473666123ECBC080074052A /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8473664F23ECA8310074052A /* BeamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8473665323ECA8310074052A /* BeamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeamerUITests.swift; sourceTree = "<group>"; };
 		8473665523ECA8310074052A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8473666123ECBC080074052A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				8473662E23ECA8300074052A /* AppDelegate.swift */,
 				8473663023ECA8300074052A /* SceneDelegate.swift */,
 				8473663523ECA8300074052A /* ContentView.swift */,
+				8473666123ECBC080074052A /* CircleImage.swift */,
 				8473663723ECA8310074052A /* Assets.xcassets */,
 				8473663C23ECA8310074052A /* LaunchScreen.storyboard */,
 				8473663F23ECA8310074052A /* Info.plist */,
@@ -274,6 +277,7 @@
 				8473663423ECA8300074052A /* Beamer.xcdatamodeld in Sources */,
 				8473663623ECA8300074052A /* ContentView.swift in Sources */,
 				8473663123ECA8300074052A /* SceneDelegate.swift in Sources */,
+				8473666223ECBC080074052A /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
